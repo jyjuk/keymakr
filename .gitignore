@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv
+venv/
+
+# ML artifacts
+*.pkl
+
+# Env
+.env
+
+# Generated data
+data/users.csv
+
+# IDE
+.idea/
+
+# Tools
+.claude/
+
+# Screenshots
+*.png
