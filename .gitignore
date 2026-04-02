@@ -12,7 +12,8 @@ venv/
 .env
 
 # Generated data
-data/users.csv
+**/data/users.csv
+celerybeat-schedule
 
 # IDE
 .idea/
