@@ -41,6 +41,13 @@ curl -X POST http://localhost:8000/fetch-users
 | `CELERY_BROKER_URL` | `redis://localhost:6379/0` | Redis broker URL |
 | `CELERY_RESULT_BACKEND` | `redis://localhost:6379/0` | Redis result backend URL |
 
+## Tests
+
+```bash
+cd task2
+pytest tests/ -v
+```
+
 ## Requirements
 
 - Docker

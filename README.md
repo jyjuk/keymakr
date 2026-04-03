@@ -52,6 +52,13 @@ docker-compose up --build
 
 Детальніше: [task2/README.md](task2/README.md)
 
+### Тести
+
+```bash
+cd task2
+pytest tests/ -v
+```
+
 ---
 
 ## Task 3 — ML Integration

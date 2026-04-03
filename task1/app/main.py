@@ -1,4 +1,4 @@
-from fastapi import Body, FastAPI, HTTPException, status
+from fastapi import FastAPI, HTTPException, status
 
 from .models import Task, TaskCreate, TaskUpdate
 
@@ -33,7 +33,7 @@ def create_task(payload: TaskCreate):
 
 
 @app.put("/tasks/{task_id}", response_model=Task)
-def update_task(task_id: int, payload: TaskUpdate = Body(...)):
+def update_task(task_id: int, payload: TaskUpdate):
     task = _get_task_or_404(task_id)
     updated = Task.model_validate({**task.model_dump(), **payload.model_dump(exclude_unset=True)})
     tasks[task_id] = updated
