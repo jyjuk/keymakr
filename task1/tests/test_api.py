@@ -2,8 +2,8 @@ import pytest
 import pytest_asyncio
 from httpx import AsyncClient, ASGITransport
 
-import app.main as main_module
 from app.main import app
+import app.main as main_module
 
 
 @pytest.fixture(autouse=True)
