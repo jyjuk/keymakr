@@ -1,0 +1,3 @@
+-r task1/requirements.txt
+-r task2/requirements.txt
+-r task3/requirements.txt
