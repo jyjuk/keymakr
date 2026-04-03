@@ -1,0 +1,61 @@
+task_description,priority
+"Fix login bug on website",high
+"Update user profile page",low
+"Implement new API endpoint",high
+"Refactor old code",low
+"Write unit tests for API",high
+"Clean up temporary files",low
+"Optimize database queries",high
+"Update documentation",low
+"Fix critical payment processing error",high
+"Rename variable in helper module",low
+"Server returns 500 on checkout",high
+"Update README with setup instructions",low
+"Security vulnerability in authentication",high
+"Add comments to utility functions",low
+"Database crashes under high load",high
+"Reorganize folder structure",low
+"Fix broken password reset flow",high
+"Update color scheme in admin panel",low
+"API response time exceeds 10 seconds",high
+"Remove unused CSS classes",low
+"Users cannot upload profile photos",high
+"Translate UI strings to French",low
+"Fix memory leak in background worker",high
+"Update npm packages to latest versions",low
+"Critical data loss on form submission",high
+"Add favicon to web app",low
+"Email notifications not being sent",high
+"Clean up old log files",low
+"Fix race condition in order processing",high
+"Move constants to config file",low
+"Application crashes on mobile devices",high
+"Update footer links",low
+"Fix SQL injection vulnerability",high
+"Improve variable naming in tests",low
+"Users locked out after password change",high
+"Add spacing between UI elements",low
+"Fix broken OAuth integration",high
+"Reformat code to match style guide",low
+"Payment gateway returns wrong totals",high
+"Update copyright year in footer",low
+"Fix deadlock in transaction handler",high
+"Consolidate duplicate test helpers",low
+"Session tokens expiring too early",high
+"Update placeholder text in forms",low
+"Fix file upload size limit not enforced",high
+"Alphabetize imports in main module",low
+"Production deployment pipeline broken",high
+"Add tooltips to dashboard buttons",low
+"Fix incorrect tax calculation in checkout",high
+"Archive old project assets",low
+"Users see other users private data",high
+"Adjust padding on mobile layout",low
+"Fix broken search functionality",high
+"Update sample data in dev environment",low
+"App hangs on startup in production",high
+"Consolidate CSS media queries",low
+"Fix incorrect date formatting in reports",high
+"Add missing period to error message",low
+"Resolve infinite loop in sync service",high
+"Update changelog for last release",low

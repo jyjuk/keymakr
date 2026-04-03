@@ -18,8 +18,5 @@ celerybeat-schedule
 # IDE
 .idea/
 
-# Tools
+# Local config
 .claude/
-
-# Screenshots
-*.png

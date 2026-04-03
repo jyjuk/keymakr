@@ -51,3 +51,38 @@ docker-compose up --build
 | POST | /fetch-users | Запустити задачу вручну |
 
 Детальніше: [task2/README.md](task2/README.md)
+
+---
+
+## Task 3 — ML Integration
+
+REST API для управління задачами з ML-класифікацією пріоритету (high/low) на базі FastAPI + scikit-learn.
+
+Модель (TF-IDF + LogisticRegression) навчається автоматично при першому старті на даних з `data/tasks.csv`.
+
+### Запуск
+
+```bash
+cd task3
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+Документація: http://localhost:8000/docs
+
+### Ендпоінти
+
+| Метод | URL | Опис |
+|-------|-----|------|
+| GET | /tasks | Список всіх задач |
+| POST | /tasks | Створити задачу |
+| PUT | /tasks/{id} | Оновити задачу |
+| DELETE | /tasks/{id} | Видалити задачу |
+| POST | /predict | Передбачити пріоритет за описом |
+
+### Тести
+
+```bash
+cd task3
+pytest tests/ -v
+```
